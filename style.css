@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* Navegação */
+nav {
+    background-color: #571ef5;
+    padding: 1em 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    list-style: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s, color 0.3s;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: white;
+    color: #333;
+}
+
+/* Banner */
+.banner {
+    height: 400px;
+    background-image: url('vilarejo_europeu.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner h1 {
+    color: white;
+    font-size: 2.5em;
+    background-color: rgba(0,0,0,0.5);
+    padding: 0.5em 1em;
+    border-radius: 10px;
+}
+
+/* Seções */
+.secao01 {
+    padding: 4em 2em;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-image: url('céu-avião.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.secao02 {
+    padding: 4em 2em;
+    text-align: center;
+    background-image: url('nos_encontre.jpg');
+    background-position: initial;
+    background-size:cover
+}
+
+.secao03 {
+    padding: 4em 2em;
+    text-align: center;
+    background-image: url('conselho.jpg');
+    background-position: center;
+    background-size:cover
+} 
+
+
+.secao h2 {
+    margin-bottom: 1em;
+    color: #2c3e50;
+}
+
+/* Transições para navegação */
+a {
+    transition: all 0.3s ease;
+}
+
+html {
+    scroll-behavior: smooth;
+}
